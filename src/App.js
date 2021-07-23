@@ -18,7 +18,10 @@ function App() {
   );
 }
 const Container = styled.div`
-
+  overflow:hidden;
+  & > * {
+    padding:0 1em;
+  }
 `
 
 export default App;

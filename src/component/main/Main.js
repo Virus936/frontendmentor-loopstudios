@@ -4,7 +4,6 @@ import  creations  from '../fakeapi/fakeapi'
 
 import interactive from '../../images/mobile/image-interactive.jpg'
 function Main(){
-  console.log(creations)
   return(
     <Container>
       <section className="introduction">

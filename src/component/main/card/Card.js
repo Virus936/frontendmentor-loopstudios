@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 function Card({ creation }){
-  console.log(creation)
   return(
     <Container>
       <img src={creation.mobile} alt="" />

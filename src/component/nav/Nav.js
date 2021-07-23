@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 
-function Nav(){
+function Nav({active}){
   return(
-    <Container>
+    <Container className={active&&'active'}>
       <NavElement>About</NavElement>
       <NavElement>Careers</NavElement>
       <NavElement>Events</NavElement>
@@ -13,6 +13,9 @@ function Nav(){
 }
 
 const Container = styled.nav`
+  @media(min-width:700px){
+    display:flex;
+  }
 
 `
 const NavElement = styled.div`
