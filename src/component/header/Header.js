@@ -11,24 +11,34 @@ function Header(){
   }
 
   return(
-    <Container>
+    <Fixed>
+      <Container>
       <span className = 'Logo'>loopsider</span>
       <BurgerMenu active={active} activeToggle={activeToggle}/>
-      
+
       <Nav active={ active } />
     </Container>
+    </Fixed>
     )
 }
+const Fixed = styled.header`
 
-const Container = styled.header`
   position:fixed;
+  top:0;
+  right:0;
+  left:0;
+`
+
+const Container = styled.div`
   display:flex;
   align-items:center;
-  width:100%;
   height:3em;
+  max-width:min(max(600px,70%),1000px);
   font-size:1.2rem;
   color:white;
-    font-family: 'Alata', sans-serif;
+  
+  margin:auto;
+  font-family: 'Alata', sans-serif;
 
   span.Logo{
     z-index:10;
@@ -44,6 +54,7 @@ const Container = styled.header`
     padding-top:3em;
     padding-left:1em;
     transition:0.3s;
+    text-align:left;
     height:100vh;
     background-color:rgba(3,3,3,.8);
     width:100%;

@@ -18,7 +18,7 @@ const Container = styled.div`
   height:100vh;
   div{
     text-transform:uppercase;
-
+    max-width:400px;
     font-size:2.6em;
     font-family: 'Josefin Sans', sans-serif;
     color:white;

@@ -14,6 +14,7 @@ function BurgerMenu({activeToggle, active}){
 }
 const Container = styled.div`
   margin-left:auto;
+  cursor:pointer;
   z-index:10;
   @media(min-width:700px){
     display:none;
