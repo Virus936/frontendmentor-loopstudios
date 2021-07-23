@@ -16,6 +16,15 @@ import Dboreal from '../../images/desktop/image-pocket-borealis.jpg'
 import Dcuriosity from '../../images/desktop/image-curiosity.jpg'
 import Dfisheye from '../../images/desktop/image-fisheye.jpg'
 
+
+import Mhero from '../../images/mobile/image-hero.jpg'
+import Dhero from '../../images/desktop/image-hero.jpg'
+
+export const heroBanner = {
+  mobile:Mhero,
+  desktop:Dhero
+}
+
 const creations = [
   {
     id:1,
