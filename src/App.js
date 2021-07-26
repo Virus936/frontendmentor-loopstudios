@@ -13,12 +13,11 @@ function App() {
       <Hero />
       <Main />
       <Footer />
-    
-
     </Container>
     </>
   );
 }
+
 const Container = styled.div`
   position:relative;
   overflow:hidden;

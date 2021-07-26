@@ -3,7 +3,7 @@ import styled from 'styled-components'
 function Card({ creation }){
   return(
     <Container>
-      <img src={creation.desktop} srcset={`${creation.mobile} 1000w, ${creation.desktop} 1900w`} alt="" />
+      <img src={creation.desktop} srcSet={`${creation.mobile} 1000w, ${creation.desktop} 1900w`} alt="" />
       <p>{creation.title}</p>
     </Container>
     )

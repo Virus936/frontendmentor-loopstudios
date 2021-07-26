@@ -24,6 +24,7 @@ function Header(){
 const Fixed = styled.header`
 
   position:fixed;
+  z-index:99999;
   top:0;
   right:0;
   left:0;
@@ -33,7 +34,7 @@ const Container = styled.div`
   display:flex;
   align-items:center;
   height:3em;
-  max-width:min(max(600px,70%),1000px);
+  max-width:min(max(800px,70%),1000px);
   font-size:1.2rem;
   color:white;
   
