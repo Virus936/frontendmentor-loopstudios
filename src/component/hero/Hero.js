@@ -20,6 +20,10 @@ const Container = styled.div`
   background-image:url('${heroBanner.mobile}');
   background-size:cover;
   height:100vh;
+  @media(min-width:700px){
+    background-image:url('${heroBanner.desktop}');
+    height:70vh;
+  }
 `
 
 const Wrapper = styled.div`
