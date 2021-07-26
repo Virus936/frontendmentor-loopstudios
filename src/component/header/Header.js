@@ -13,7 +13,7 @@ function Header(){
   return(
     <Fixed>
       <Container>
-        <span className = 'Logo'>loopsider</span>
+        <span className = 'Logo'>loopstudios</span>
         <BurgerMenu active={active} activeToggle={activeToggle}/>
 
         <Nav active={ active } />
