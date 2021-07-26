@@ -3,19 +3,31 @@ import {heroBanner} from '../fakeapi/fakeapi'
 function Hero(){
   return(
     <Container>
-      <div>
-        Immersive experiences that deliver
-      </div>
+      <Wrapper>
+        <div>
+          Immersive experiences that deliver
+        </div>
+      </Wrapper>
     </Container>
     )
 }
+
 const Container = styled.div`
   display:flex;
   flex-direction:column;
   justify-content:center;
+  align-items:center;
   background-image:url('${heroBanner.mobile}');
   background-size:cover;
   height:100vh;
+`
+
+const Wrapper = styled.div`
+
+  @media(min-width:700px){
+    width:100%;
+    max-width:min(max(600px,70%),1000px);
+  }
   div{
     text-transform:uppercase;
     max-width:400px;
@@ -26,6 +38,6 @@ const Container = styled.div`
     padding:.51em;
 
   }
-`
 
+`
 export default Hero

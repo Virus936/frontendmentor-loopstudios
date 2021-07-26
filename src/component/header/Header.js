@@ -13,13 +13,13 @@ function Header(){
   return(
     <Fixed>
       <Container>
-      <span className = 'Logo'>loopsider</span>
-      <BurgerMenu active={active} activeToggle={activeToggle}/>
+        <span className = 'Logo'>loopsider</span>
+        <BurgerMenu active={active} activeToggle={activeToggle}/>
 
-      <Nav active={ active } />
-    </Container>
+        <Nav active={ active } />
+      </Container>
     </Fixed>
-    )
+  )
 }
 const Fixed = styled.header`
 
