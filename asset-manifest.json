@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/frontendmentor-loopstudios/static/css/main.0a0d358d.chunk.css",
-    "main.js": "/frontendmentor-loopstudios/static/js/main.c5282983.chunk.js",
-    "main.js.map": "/frontendmentor-loopstudios/static/js/main.c5282983.chunk.js.map",
+    "main.js": "/frontendmentor-loopstudios/static/js/main.af1b3b66.chunk.js",
+    "main.js.map": "/frontendmentor-loopstudios/static/js/main.af1b3b66.chunk.js.map",
     "runtime-main.js": "/frontendmentor-loopstudios/static/js/runtime-main.c01a9617.js",
     "runtime-main.js.map": "/frontendmentor-loopstudios/static/js/runtime-main.c01a9617.js.map",
     "static/js/2.f8d02193.chunk.js": "/frontendmentor-loopstudios/static/js/2.f8d02193.chunk.js",
@@ -42,6 +42,6 @@
     "static/js/runtime-main.c01a9617.js",
     "static/js/2.f8d02193.chunk.js",
     "static/css/main.0a0d358d.chunk.css",
-    "static/js/main.c5282983.chunk.js"
+    "static/js/main.af1b3b66.chunk.js"
   ]
 }
