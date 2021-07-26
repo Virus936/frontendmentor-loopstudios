@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/frontendmentor-loopstudios/static/css/main.0a0d358d.chunk.css",
-    "main.js": "/frontendmentor-loopstudios/static/js/main.1fb3c885.chunk.js",
-    "main.js.map": "/frontendmentor-loopstudios/static/js/main.1fb3c885.chunk.js.map",
+    "main.js": "/frontendmentor-loopstudios/static/js/main.c5282983.chunk.js",
+    "main.js.map": "/frontendmentor-loopstudios/static/js/main.c5282983.chunk.js.map",
     "runtime-main.js": "/frontendmentor-loopstudios/static/js/runtime-main.c01a9617.js",
     "runtime-main.js.map": "/frontendmentor-loopstudios/static/js/runtime-main.c01a9617.js.map",
     "static/js/2.f8d02193.chunk.js": "/frontendmentor-loopstudios/static/js/2.f8d02193.chunk.js",
@@ -13,7 +13,11 @@
     "static/css/main.0a0d358d.chunk.css.map": "/frontendmentor-loopstudios/static/css/main.0a0d358d.chunk.css.map",
     "static/js/2.f8d02193.chunk.js.LICENSE.txt": "/frontendmentor-loopstudios/static/js/2.f8d02193.chunk.js.LICENSE.txt",
     "static/media/icon-close.b069db14.svg": "/frontendmentor-loopstudios/static/media/icon-close.b069db14.svg",
+    "static/media/icon-facebook.9ffd6f3a.svg": "/frontendmentor-loopstudios/static/media/icon-facebook.9ffd6f3a.svg",
     "static/media/icon-hamburger.f769f2bd.svg": "/frontendmentor-loopstudios/static/media/icon-hamburger.f769f2bd.svg",
+    "static/media/icon-instagram.a1251b60.svg": "/frontendmentor-loopstudios/static/media/icon-instagram.a1251b60.svg",
+    "static/media/icon-pinterest.dd41a959.svg": "/frontendmentor-loopstudios/static/media/icon-pinterest.dd41a959.svg",
+    "static/media/icon-twitter.988db8a5.svg": "/frontendmentor-loopstudios/static/media/icon-twitter.988db8a5.svg",
     "static/media/image-curiosity.40d51f38.jpg": "/frontendmentor-loopstudios/static/media/image-curiosity.40d51f38.jpg",
     "static/media/image-curiosity.7f14665a.jpg": "/frontendmentor-loopstudios/static/media/image-curiosity.7f14665a.jpg",
     "static/media/image-deep-earth.2a157951.jpg": "/frontendmentor-loopstudios/static/media/image-deep-earth.2a157951.jpg",
@@ -38,6 +42,6 @@
     "static/js/runtime-main.c01a9617.js",
     "static/js/2.f8d02193.chunk.js",
     "static/css/main.0a0d358d.chunk.css",
-    "static/js/main.1fb3c885.chunk.js"
+    "static/js/main.c5282983.chunk.js"
   ]
 }
