@@ -10,7 +10,6 @@ function Footer(){
     <Container>
       <Wrapper>
 
-
         <div>
           <span className="Logo">loopstudios</span>
           <Nav />
@@ -44,7 +43,7 @@ const Wrapper = styled.div`
   margin:auto;
   padding-top:2em ;
   padding-bottom:2em ;
-      gap:1em;
+  gap:1em;
   
   .Logo{
     font-size:1.2rem;
@@ -56,8 +55,6 @@ const Wrapper = styled.div`
     flex-direction:column;
     align-items:center;
 
-    @media(min-width:700px){
-    }
   }
   
   nav{
